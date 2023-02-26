@@ -1,10 +1,6 @@
 body {
-    width: 1360px;
-    margin: 0;
-}
-
-* {
-    box-sizing: border-box;
+    max-width: 1360px;
+    margin: auto;
 }
 
 .header {
@@ -16,7 +12,7 @@ body {
     line-height: 42px;
     position: absolute;
     margin-left: 49px;
-    text-align: center;
+    align-items: center;
 }
 
 .finance {
@@ -31,8 +27,9 @@ body {
 
 .links {
     display: flex;
+    color: #fff;
     position: absolute;
-    left: 850px;
+    left: 904px;
     top: 21px;
     gap: 38px;
     font-family: 'Open Sans';
@@ -40,6 +37,43 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-    color: #fff;
 }
 
+.hat-text-btn {
+    position: absolute;
+    left: 431px;
+    top: 279px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 66px;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 37px;
+}
+
+.hat-btn {
+    background: #28A745;
+    border-radius: 5px;
+    width: 165px;
+    height: 48px;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
