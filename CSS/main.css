@@ -1,6 +1,6 @@
 body {
     width: 1360px;
-    margin: auto;
+    margin: 0;
 }
 
 * {
@@ -30,4 +30,7 @@ body {
 
 .links {
     text-decoration: none;
+    position: absolute;
+    left: 904px;
+    top: 21px;
 }
