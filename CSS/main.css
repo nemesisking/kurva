@@ -1,5 +1,5 @@
 body {
-    width: 1360px;
+    max-width: 1360px;
     margin: auto;
 }
 
@@ -16,6 +16,7 @@ body {
     line-height: 42px;
     position: absolute;
     margin-left: 49px;
+    align-items: center;
 }
 
 .finance {
@@ -29,5 +30,15 @@ body {
 }
 
 .links {
-    text-decoration: none;
+    display: flex;
+    color: #fff;
+    position: absolute;
+    left: 904px;
+    top: 21px;
+    gap: 38px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
 }
