@@ -32,11 +32,6 @@ body {
     left: 904px;
     top: 21px;
     gap: 38px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
 }
 
 .hat-text-btn {
@@ -72,6 +67,14 @@ h3 {
     font-weight: 400;
     font-size: 20px;
     line-height: 33px;
+}
+
+p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
 }
 
 .hat-btn {
@@ -134,20 +137,36 @@ h3 {
     z-index: -1;
 }
 
-h3 {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 33px;
-}
-
 .information-text {
     width: 362px;
+    color: black;
+}
+
+.solutions {
+    display: flex;
+    background: #28A745;
+}
+
+.solutions-text-btn {
+    text-align: start;
+    color: #fff;
+    margin-left: 30px;
+}
+
+.solutions-parragraf {
+    width: 606px;
+}
+
+.solutions-btn {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: transparent;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-    color: black;
+    color: #fff;
+    width: 167px;
+    height: 50px;
 }
