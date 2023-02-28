@@ -36,11 +36,15 @@ p {
     line-height: 28px;
 }
 
-.header {
+header {
     display: flex;
     position: absolute;
     margin-left: 49px;
     align-items: center;
+}
+
+.header {
+    display: flex;
 }
 
 .finance {
@@ -67,18 +71,15 @@ p {
     display: flex;
     color: #fff;
     position: absolute;
-    left: 904px;
-    top: 21px;
+    margin-left: 860px;
     gap: 38px;
 }
 
 .hat-text-btn {
     position: absolute;
-    left: 431px;
-    top: 279px;
+    margin: 279px 0 0 431px;
     color: #fff;
     text-align: center;
-    margin: 0;
     width: 493px;
 }
 
@@ -98,8 +99,7 @@ p {
 
 .btn-svg {
     position: absolute;
-    top: 158px;
-    left: 180px;
+    margin: 19px;
 }
 
 .information {
@@ -109,37 +109,18 @@ p {
     margin-top: 40px;
 }
 
-.circle1 {
+.circle {
     background: #28A745;
     border-radius: 33.5px;
     position: absolute;
-    left: 192px;
-    top: 790px;
     width: 67px;
     height: 67px;
     z-index: -1;
+    margin-left: 146px;
 }
 
-.circle2 {
-    background: #28A745;
-    border-radius: 33.5px;
-    position: absolute;
-    left: 645px;
-    top: 790px;
-    width: 67px;
-    height: 67px;
-    z-index: -1;
-}
-
-.circle3 {
-    background: #28A745;
-    border-radius: 33.5px;
-    position: absolute;
-    left: 1100px;
-    top: 790px;
-    width: 67px;
-    height: 67px;
-    z-index: -1;
+.svg {
+    margin-top: 15px;
 }
 
 .information-text {
@@ -152,7 +133,7 @@ p {
     background: #28A745;
 }
 
-.solutions-text-btn {
+.solution-text-btn {
     text-align: start;
     color: #fff;
     margin-left: 30px;
@@ -177,11 +158,11 @@ p {
     margin: 0;
 }
 
-.solutions-parragraf {
+.solution-parragraf {
     width: 606px;
 }
 
-.solutions-btn {
+.solution-btn {
     border: 1px solid #FFFFFF;
     border-radius: 5px;
     background-color: transparent;
@@ -209,30 +190,70 @@ p {
 
 /* Responsive */
 
-/* Large: 992px - 1199px */
-@media (max-width: 1199px) {
-    .container {
-        max-width: 960px;
+@media (max-width: 768px) {
+    body {
+        max-width: 768px;
+        display: flex;
+        flex-direction: column;
     }
+
+    .links {
+        margin-left: 360px;
+        gap: 19px;
+    }
+
+    .backgraund-img {
+        width: 100%;
+    }
+
+    .hat-text-btn {
+        margin: 407px 0 0 135px;
+    }
+
+    .circle {
+        margin-left: 58px;
+    }
+
+    .information-text {
+        width: 185px;
+    }
+
+    .solution-img {
+        width: 384px;
+        background-image: url(img/Rectangle.png);
+    }
+
+    .solution-text-btn {
+        margin-top: 30px;
+    }
+
+    .changed-h3 {
+        width: 204px;
+    }
+
+    .solution-parragraf {
+        width: 315px;
+    }
+
 }
 
 /* Medium: 768px - 991px */
 @media (max-width: 991px) {
-    .container {
-        max-width: 720px;
+    body {
+        min-width: 768px;
     }
 }
 
 /* Small: 576px - 767px */
 @media (max-width: 767px) {
-    .container {
+    body {
         max-width: 540px;
     }
 }
 
 /* Extra small: 0px (320px) - 575px */
 @media (max-width: 575px) {
-    .container {
+    body {
         padding: 0 15px;
     }
 }
