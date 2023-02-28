@@ -3,6 +3,39 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 66px;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 37px;
+}
+
+h3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+}
+
+p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
 .header {
     display: flex;
     font-family: 'Open Sans';
@@ -42,39 +75,6 @@ body {
     text-align: center;
     margin: 0;
     width: 493px;
-}
-
-h1 {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 55px;
-    line-height: 66px;
-    margin: 0;
-}
-
-h2 {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 37px;
-}
-
-h3 {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 33px;
-}
-
-p {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
 }
 
 .hat-btn {
@@ -151,6 +151,25 @@ p {
     text-align: start;
     color: #fff;
     margin-left: 30px;
+    margin-top: 84px;
+}
+
+.changed-h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    margin: 0;
+}
+
+.changed-h3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 48px;
+    margin: 0;
 }
 
 .solutions-parragraf {
@@ -169,4 +188,16 @@ p {
     color: #fff;
     width: 167px;
     height: 50px;
+}
+
+.what-we-do {
+    text-align: center;
+    margin: 50px 0 39px;
+}
+
+.grid-img {
+    display: grid;
+    grid-template: repeat(2, 214px)/ repeat(4, 320px);
+    gap: 7px 8px;
+    margin-left: 28px;
 }
