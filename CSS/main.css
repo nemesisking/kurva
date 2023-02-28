@@ -38,11 +38,6 @@ p {
 
 .header {
     display: flex;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 42px;
     position: absolute;
     margin-left: 49px;
     align-items: center;
@@ -52,10 +47,20 @@ p {
     color: #28A745;
     margin-left: 10.69px;
     margin-right: 10.69px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
 }
 
 .ledger {
     color: #fff;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
 }
 
 .links {
