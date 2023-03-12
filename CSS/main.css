@@ -70,8 +70,7 @@ header {
 .links {
     display: flex;
     color: #fff;
-    position: absolute;
-    margin-left: 860px;
+    margin-left: 580px;
     gap: 38px;
 }
 
@@ -198,7 +197,7 @@ header {
     }
 
     .links {
-        margin-left: 360px;
+        margin-left: 75px;
         gap: 19px;
     }
 
@@ -264,8 +263,17 @@ header {
     }
 
     header {
-        margin-left: 13px;
+        margin: 0;
         display: flex;
-        flex: none;
+        flex-direction: column;
+    }
+
+    .header {
+        margin-left: 10px;
+    }
+
+    .links {
+        margin-left: 12px;
+        gap: 12px;
     }
 }
