@@ -36,6 +36,19 @@ p {
     line-height: 28px;
 }
 
+button {
+    width: 167px;
+    height: 50px;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 header {
     display: flex;
     position: absolute;
@@ -83,6 +96,10 @@ a {
     gap: 38px;
 }
 
+.links :hover {
+    color: #28A745;
+}
+
 .hat-text-btn {
     position: absolute;
     margin: 279px 0 0 431px;
@@ -93,16 +110,8 @@ a {
 
 .hat-btn {
     background: #28A745;
-    border-radius: 5px;
     border: none;
-    width: 165px;
-    height: 48px;
-    color: #fff;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
+
 }
 
 .btn-svg {
@@ -191,16 +200,7 @@ a {
 
 .solution-btn {
     border: 1px solid #FFFFFF;
-    border-radius: 5px;
     background-color: transparent;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    color: #fff;
-    width: 167px;
-    height: 50px;
 }
 
 .what-we-do {
@@ -270,11 +270,11 @@ a {
     }
 
     .grid-img {
-    display: grid;
-    grid-template-columns: repeat(4, 172px);
-    grid-template-rows: repeat(2, 115px);
-    gap: 7px 8px;
-    margin-left: 28px;
+        display: grid;
+        grid-template-columns: repeat(4, 172px);
+        grid-template-rows: repeat(2, 115px);
+        gap: 7px 8px;
+        margin-left: 28px;
     }
 
     .grid-item {
