@@ -97,7 +97,8 @@ a {
 }
 
 .links :hover {
-    color: #28A745;
+    color: yellow;
+    text-shadow: 0 5px 5px  #ff0000;
 }
 
 .hat-text-btn {
